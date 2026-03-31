@@ -5,40 +5,63 @@ from dataclasses import dataclass
 
 # Found the ID in: https://winget.run  or execute: winget search <name>
 WINGET_APPS = [
+
+    # Gaming
     "Valve.Steam",
-    "Overwolf.CurseForge",
-    "Discord.Discord",
-    "Microsoft.VisualStudioCode",
-    "Notepad++.Notepad++",
-    "7zip.7zip",
     "EpicGames.EpicGamesLauncher",
-    "Spotify.Spotify",
     "ElectronicArts.EADesktop",
     "GOG.Galaxy",
-    "Docker.DockerDesktop",
-    "GIMP.GIMP",
-    "Google.Drive",
-    "Git.Git",
-    "Logitech.OptionsPlus",
-    "Microsoft.WindowsTerminal",
-    "Foxit.FoxitReader",
+    "Overwolf.CurseForge",
     "Nvidia.GeForceExperience",
+
+    # Development
+    "Git.Git",
+    "Microsoft.VisualStudioCode",
+    "Notepad++.Notepad++",
+    "Docker.DockerDesktop",
+    "Anaconda.Miniconda3",
+    "Microsoft.WindowsTerminal",
+
+    # Communication & Social
+    "Discord.Discord",
+    "Spotify.Spotify",
+
+    # Productivity & Utilities
+    "7zip.7zip",
+    "CodeSector.TeraCopy",
+    "Foxit.FoxitReader",
+    "Google.Drive",
+    "NordVPN.NordVPN",
+
+    # Creative & Media
+    "GIMP.GIMP",
     "OBSProject.OBSStudio",
     "Microsoft.PowerBI",
-    "CodeSector.TeraCopy",
-    "Anaconda.Miniconda3"
+
+    # Hardware & Peripherals
+    "Logitech.OptionsPlus",
+
 ]
 
 PIP_PACKAGES = [
+
+    # HTTP & Web Scraping
+    "requests",
+    "beautifulsoup4",
+
+    # Data & Analysis
     "numpy",
     "pandas",
-    "beautifulsoup4",
-    "requests",
-    "matplotlib",
     "scipy",
+
+    # Machine Learning
     "scikit-learn",
+
+    # Visualization
+    "matplotlib",
     "seaborn",
-    "plotly"
+    "plotly",
+
 ]
 
 class Color:
